@@ -27,10 +27,6 @@ models:
         name: draft
         label: draft
         description: add your post in draft
-      - type: list
-        name: tags
-        label: tags
-        description: add your blog tags here
       - type: date
         name: date
         label: Date
