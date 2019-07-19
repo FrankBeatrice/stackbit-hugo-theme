@@ -9,3 +9,48 @@ pagesDir: content  # folder with markdown page files
 pageLayoutKey: layout  # the front-matter key in markdown page files
                        # referencing their layout
 models:
+  post:
+    type: page  # the content model type, can be: page, config, data, object
+    label: post 
+    folder: post
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: string
+        name: slug
+        label: slug
+        description: the url page the blog
+      - type: boolean
+        name: draft
+        label: draft
+        description: add your post in draft
+      - type: list
+        name: tags
+        label: tags
+        description: add your blog tags here
+      - type: date
+        name: date
+        label: Date
+        description: date of the blog post
+        required: true
+  page:
+    type: page
+    label: page
+    layout: cover
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: date
+        name: date
+        label: Date
+        description: date of the blog post
+      - type: boolean
+        name: draft
+        label: draft
+        description: add your post in draft
