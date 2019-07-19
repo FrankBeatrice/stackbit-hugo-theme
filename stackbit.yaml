@@ -23,10 +23,15 @@ models:
         name: slug
         label: slug
         description: the url page the blog
+      - type: list
+        name: links
+        label: Links
+        description: A list of links displayed in the footer.
       - type: boolean
         name: draft
         label: draft
         description: add your post in draft
+        default: false
       - type: date
         name: date
         label: Date
@@ -50,3 +55,4 @@ models:
         name: draft
         label: draft
         description: add your post in draft
+        default: false
