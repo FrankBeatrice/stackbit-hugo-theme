@@ -1,6 +1,10 @@
-stackbitVersion: ~0.2.39
+stackbitVersion: ~0.2.46
 ssgName: hugo
 publishDir: public
+dataDir: data
+pagesDir: content
+staticDir: static
+pageLayoutKey: layout
 buildCommand: hugo
 injectLocations:
   htmlHead:
