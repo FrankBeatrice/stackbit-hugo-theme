@@ -69,8 +69,7 @@ canonifyurls = true
   logo = "images/jab_profilepic_alt.png"
   googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  twitterName = ""
+  # twitterName = ""
   # facebookName = ""
   # codepenName = ""
   # linkedinName = ""
@@ -89,8 +88,6 @@ canonifyurls = true
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
   hjsStyle = "default"
 
-  [params.social]
-    twitter = "your_twitter"
 
     
 
