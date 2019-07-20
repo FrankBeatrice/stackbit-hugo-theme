@@ -1,11 +1,11 @@
 stackbitVersion: ~0.2.46
-ssgName: hugo
+# ssgName: hugo
 publishDir: public
 dataDir: data
 pagesDir: content
 staticDir: static
 pageLayoutKey: layout
-buildCommand: hugo
+# buildCommand: hugo
 injectLocations:
   htmlHead:
     file: layouts/_default/baseof.html
