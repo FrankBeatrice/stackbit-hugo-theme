@@ -176,9 +176,7 @@ models:
       - type: string
         name: identifier
         label: Identifier
-        description: >-
-          The identifier of a menu item could be used as a parent menu of
-          another menu item
+        description: 'The identifier of a menu item could be used as a parent menu of another menu item'
         required: true
       - type: string
         name: name
@@ -194,40 +192,3 @@ models:
         name: weight
         label: Weight
         description: Position for sorting
-      - type: string
-        name: parent
-        label: Parent Menu Identifier
-        description: The parent of an entry should be the identifier of another entry.
-  page_menus:
-    type: object
-    label: Page Menus
-    description: 'Page menus model, defines menus that can be specified from within pages'
-    fields:
-      - type: page_menu_item
-        name: main
-        label: Main menu item
-        description: Main menu item for this page
-  page_menu_item:
-    type: object
-    label: Page Menu Item
-    labelField: name
-    description: 'Page menu item model, defines fields for a single page menu item'
-    fields:
-      - type: string
-        name: name
-        label: Title
-        description: The title of the menu item
-      - type: number
-        name: weight
-        label: Weight
-        description: Position for sorting
-      - type: string
-        name: identifier
-        label: Identifier
-        description: >-
-          The identifier of a menu item could be used as a parent menu of
-          another menu item
-      - type: string
-        name: parent
-        label: Parent Menu Identifier
-        description: The parent of an entry should be the identifier of another entry.
