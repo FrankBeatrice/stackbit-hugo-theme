@@ -1,10 +1,6 @@
 stackbitVersion: ~0.2.46
 ssgName: hugo
 publishDir: public
-dataDir: data
-pagesDir: content
-staticDir: static
-pageLayoutKey: layout
 buildCommand: hugo
 injectLocations:
   htmlHead:
@@ -14,14 +10,6 @@ injectLocations:
     file: layouts/_default/baseof.html
     tagName: body
 uploadDir: images
-metadata:
-  title: The Law Offices of Joseph A. Bondy
-  description: Joseph A. Bondy is a criminal defense and corporate cannabis lawyer in private practice in New York. Mr. Bondy defends all types of criminal cases, from initial arrest through grand jury investigation, pre-trial discovery and motions, trial, sentencing and appeals, in both the federal and state courts, and represents a number of companies in the cannabis and industrial hemp industry on a variety of corporate and securities law matters. Mr. Bondy is admitted to practice in the State of New York, the United States District Courts for the Northern, Southern, Eastern and Western Districts of New York, the District District of Connecticut, the United States Court of Appeals for the First, Second, Third, and Fourth Circuits, and the Supreme Court of the United States.
-  author: StackbitJoseph A. Bondy
-  authorURL: '/'
-  images:
-    small: images/demo-256x192.png
-    large: images/demo-1024x768.png
 models:
   config:
     type: config
