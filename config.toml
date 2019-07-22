@@ -1,6 +1,4 @@
 baseURL = "/"
-languageCode = "en-us"
-
 LanguageCode= "fr-FR"
 Title= "The Law Offices of Joseph A. Bondy"
 paginate = 5
