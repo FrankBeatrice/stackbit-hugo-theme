@@ -48,54 +48,54 @@ models:
             name: description
             label: description
             description: Site description
-      - type: string
-        name: metadescription
-        label: metadescription
-        description: Site metadescription
-        hidden: true
-      - type: image
-        name: logo
-        label: Logo
-        description: the path of the logo image
-        required: true
-      - type: string
-        name: author
-        label: author
-        description: name of the author
-      - type: string
-        name: authorwebsite
-        label: authorwebsite
-        description: authorwebsite
-      - type: string
-        name: authorlocation
-        label: authorlocation
-        description: authorlocation
-      - type: string
-        name: authorbio
-        label: authorbio
-        description: authorbio
-      - type: string
-        name: googleAnalyticsUserID
-        label: googleAnalyticsUserID
-        description: googleAnalyticsUserID
-      - type: string
-        name: googleAnalyticsUserID
-        label: googleAnalyticsUserID
-        description: googleAnalyticsUserID
-      - type: string
-        name: hjsStyle
-        label: hjsStyle
-        description: hjsStyle
-        default: default
-      - type: boolean
-        name: hideHUGOSupport
-        label: hideHUGOSupport
-        description: hideHUGOSuppor
-        default: ture
-      - type: image
-        name: cover
-        label: cover
-        description: Site cover image
+          - type: string
+            name: metadescription
+            label: metadescription
+            description: Site metadescription
+            hidden: true
+          - type: image
+            name: logo
+            label: Logo
+            description: the path of the logo image
+            required: true
+          - type: string
+            name: author
+            label: author
+            description: name of the author
+          - type: string
+            name: authorwebsite
+            label: authorwebsite
+            description: authorwebsite
+          - type: string
+            name: authorlocation
+            label: authorlocation
+            description: authorlocation
+          - type: string
+            name: authorbio
+            label: authorbio
+            description: authorbio
+          - type: string
+            name: googleAnalyticsUserID
+            label: googleAnalyticsUserID
+            description: googleAnalyticsUserID
+          - type: string
+            name: googleAnalyticsUserID
+            label: googleAnalyticsUserID
+            description: googleAnalyticsUserID
+          - type: string
+            name: hjsStyle
+            label: hjsStyle
+            description: hjsStyle
+            default: default
+          - type: boolean
+            name: hideHUGOSupport
+            label: hideHUGOSupport
+            description: hideHUGOSuppor
+            default: ture
+          - type: image
+            name: cover
+            label: cover
+            description: Site cover image
       - type: site_menus
         name: menu
         label: Site Menus
