@@ -121,6 +121,7 @@ models:
   post:
     type: page
     label: post
+    layout: single
     folder: post
     fields:
       - type: string
