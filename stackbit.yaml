@@ -1,6 +1,6 @@
 stackbitVersion: ~0.2.46
 ssgName: hugo
-publishDir: public
+publishDir: public 
 buildCommand: hugo
 injectLocations:
   htmlHead:
@@ -95,6 +95,7 @@ models:
   page:
     type: page
     label: page
+    layout: cover
     fields:
       - type: string
         name: title
@@ -117,11 +118,9 @@ models:
         name: menu
         label: Feature Menus
         description: Which menus should this page show up in
-    layout: cover
   post:
     type: page
     label: post
-    layout: single
     folder: post
     fields:
       - type: string
