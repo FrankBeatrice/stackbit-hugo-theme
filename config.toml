@@ -5,6 +5,55 @@ paginate = 5
 Copyright = "<br></br>  All rights reserved - 2019"
 canonifyurls = true
 
+[[menu.main]]
+  identifier = "About The Firm"
+  name = "- Attorneys "
+  pre = "<h3>About the Firm</h3>"
+  weight = 143
+  url = "/attorneys/"
+
+[[menu.main]]
+  identifier = ""
+  name = "- Significant Cases "
+  pre = ""
+  weight = 142
+  url = "/significant_cases/"
+
+[[menu.main]]
+  identifier = ""
+  name = "- Testimonials "
+  pre = ""
+  weight = 141
+  url = "/client_testimonials/"
+
+[[menu.main]]
+  identifier = ""
+  name = "- Criminal Defense "
+  pre = "<h3>Practice Areas</h3>"
+  weight = 139
+  url = "/criminal_defense/"
+
+[[menu.main]]
+  identifier = "Practice Areas"
+  name = "- Cannabis Law "
+  pre = ""
+  weight = 138
+  url = "/cannabis_law/"
+
+[[menu.main]]
+  identifier = "Media"
+  name = "- ITK420 "
+  pre = "<h3> Media <h3>"
+  weight = 137
+  url = "/itk420/"
+
+[[menu.main]]
+  identifier = "Contact Us"
+  name = "- Contactus "
+  pre = "<h3>Contact Us</h3>"
+  weight = 137
+  url = "/contact_us/"
+
 [params]
   description = "Joseph A. Bondy is a criminal defense and corporate cannabis lawyer in private practice in New York. Mr. Bondy defends all types of criminal cases, from initial arrest through grand jury investigation, pre-trial discovery and motions, trial, sentencing and appeals, in both the federal and state courts, and represents a number of companies in the cannabis and industrial hemp industry on a variety of corporate and securities law matters. Mr. Bondy is admitted to practice in the State of New York, the United States District Courts for the Northern, Southern, Eastern and Western Districts of New York, the District District of Connecticut, the United States Court of Appeals for the First, Second, Third, and Fourth Circuits, and the Supreme Court of the United States."
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
